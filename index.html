@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Define the character encoding and compatibility mode -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Set the viewport for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Set the title of the page -->
+    <title>STOP WATCH</title>
+    <!-- Link to an external CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <!-- Create a container for the stopwatch -->
+    <div id="container">
+        <!-- Create a header for the stopwatch -->
+        <div id="text">
+            <h3>STOP &nbsp WATCH</h3>
+        </div>
+        <!-- Create a container for the clock display and buttons -->
+        <div id="clock_container">
+            <!-- Create a div for the clock display -->
+            <div id="timer">
+                <h3 id="timer_display"> 00 : 00 : 00 : 000</h3>
+            </div>
+            <!-- Create a div for the buttons -->
+            <div id="button">
+                <!-- Create a button to start the stopwatch -->
+                <button class="button_text" id="start_button">START</button>
+                <!-- Create a button to stop the stopwatch -->
+                <button class="button_text" id="stop_button">STOP</button>
+                <!-- Create a button to reset the stopwatch -->
+                <button class="button_text" id="reset_button">RESET</button>
+            </div>
+        </div>
+    </div>
+    <!-- Link to an external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
